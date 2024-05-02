@@ -4,6 +4,16 @@
 
 This script is a simple Python game where a player competes against a bot to guess the position of a joker card. The player and the bot take turns guessing, and the winner earns points and chips while the loser loses them.
 
+### What's New V1.2
+
+- **Improved Game Logic**: The code has been enhanced by organizing the game logic into separate functions, such as `game()` and `main()`, to improve readability and maintainability.
+
+- **Start Game Prompt**: The `main()` function prompts the player to choose whether they want to start the game or not, providing more control over when the game begins.
+
+- **Input Handling**: Input handling for starting or ending the game is now managed within the `main()` function, separating this logic from the game's core logic.
+
+- **Initial Money Reset**: After a game ends due to depleted funds, the script now adds initial funds back to both the player and the bot before starting a new game, giving the player another chance to play.
+
 ## How to Play
 
 1. Run the script in a Python environment.
